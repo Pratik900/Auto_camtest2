@@ -29,7 +29,7 @@ Label_kg = tkinter.Label(root, text="BMI CALCULATOR ", fg="RED", font="times 25 
 Label_kg.grid(column=2, row=0)
 
 #Label_&_Entrys
-Label_kg = tkinter.Label(root, text="Weight(Kg): ", fg="brown", font="times 10 bold")
+Label_kg = tkinter.Label(root, text="Weight(Kg): ", fg="brown", font="times 10 bold ")
 Label_kg.grid(column=0, row=1)
 entry_kg = tkinter.Entry(root)
 entry_kg.grid(column=1, row=1)
