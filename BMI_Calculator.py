@@ -1,5 +1,5 @@
 # BMI CALCULATOR USING PYTHON
-# PA54,PA54,PA56
+# PA54,PA55,PA56
 import tkinter
 
 root = tkinter.Tk()
