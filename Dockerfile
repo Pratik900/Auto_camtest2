@@ -8,4 +8,4 @@ COPY requirements.txt requirements.txt
 RUN pip3 install wheel
 RUN pip3 install -r requirements.txt
 COPY . /python-docker
-CMD ["python3", ".\BMI_Calculator.py"]
+CMD ["python3", ".\calculator.py"]
