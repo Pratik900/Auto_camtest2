@@ -1,4 +1,4 @@
-#bmi calculator
+"""In this project i have made simple gui of BMI calculator """
 import tkinter
 
 root = tkinter.Tk()
