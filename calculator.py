@@ -7,14 +7,15 @@ root.title("HMPS_PROJECT_PA54_PA55_56")
 
 # functiom
 def calculate_bmi():
-    kg = float(entry_kg.get())
+    """After click on calculate button this function get called"""
+    kgs = float(entry_kg.get())
     height = float(entry_Height.get())
     age = float(entry_Age.get())
     waist = float(entry_waist.get())
     hip = float(entry_hip.get())
-    bmr = round(88.362+(13.397*kg)+(4.799*height)-(5.677*age),2)
+    bmr = round(88.362+(13.397*kgs)+(4.799*height)-(5.677*age),2)
     vif = round((waist/hip),2)
-    bmi = round(kg / (height ** 2), 2)
+    bmi = round(kgs / (height ** 2), 2)
     body_fat = round((1.20 * bmi) + ((0.23 * age) - 16.2),2)
 
 
