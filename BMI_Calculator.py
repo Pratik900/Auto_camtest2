@@ -69,7 +69,8 @@ Label_result1.grid(column=2, row=3)
 Label_result2 = tkinter.Label(root, text= "VISCERAL FAT:", fg="blue", font="times 10 bold")
 Label_result2.grid(column=2, row=4)
 
-Label_result3 = tkinter.Label(root, text= "RESTING METABOLIC RATE:", fg="blue", font="times 10 bold")
+Label_result3 = tkinter.Label(root, text= "RESTING METABOLIC RATE:",
+                              fg="blue", font="times 10 bold")
 Label_result3.grid(column=2, row=5)
 
 Label_MALE = tkinter.Label(root, text="MALE    FEMALE", fg="purple", font="times 10 bold")
