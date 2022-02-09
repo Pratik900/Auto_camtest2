@@ -53,7 +53,8 @@ entry_hip = tkinter.Entry(root)
 entry_hip.grid(column=1, row=5)
 
 #Command_Button
-button_calculator = tkinter.Button(root, text="Calculate",fg = "black", font="times 12 bold", command=calculate_bmi)
+button_calculator = tkinter.Button(root, text="Calculate",fg = "black",
+                                   font="times 12 bold", command=calculate_bmi)
 button_calculator.grid(column=2, row=6)
 
 #Report_Output
