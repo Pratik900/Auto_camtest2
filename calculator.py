@@ -1,5 +1,5 @@
 """In this project i have made simple gui of BMI calculator """
-import tkinte
+import tkinter
 
 root = tkinter.Tk()
 root.geometry("700x195")
