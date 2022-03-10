@@ -89,4 +89,4 @@ Label_VIF.grid(column=4, row=4)
 Label_RM = tkinter.Label(root, text= "1800-2000    1600-1800", fg="purple", font="times 10 bold")
 Label_RM.grid(column=4,  row=5)
 
-ss
+root.mainloop()
