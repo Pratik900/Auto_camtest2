@@ -5,7 +5,7 @@ root = tkinter.Tk()
 root.geometry("700x195")
 root.title("HMPS_PROJECT_PA54_PA55_56")
 
-# functiom
+# Functiom
 def calculate_bmi():
     """After click on calculate button this function get called"""
     kgs = float(entry_kg.get())
